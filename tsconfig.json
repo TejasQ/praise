@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "noImplicitAny": true,
+    "sourceMap": false,
+    "lib": ["dom", "es2017"],
+    "declaration": true
+  },
+  "exclude": ["node_modules"]
+}
