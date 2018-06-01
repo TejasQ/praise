@@ -1,10 +1,24 @@
 {
   "name": "praise",
-  "version": "0.1.0",
+  "version": "0.0.0",
   "description": "Do stuff with voice in the browser.",
   "main": "dist/praise.js",
   "author": "Tejas Kumar <tejas@tejas.qa>",
   "license": "MIT",
+  "keywords": [
+    "voice command",
+    "web speech",
+    "speech recognition"
+  ],
+  "bugs": "tejas@tejas.qa",
+  "contributors": [
+    "Tejas Kumar <tejas@tejas.qa>"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tejasq/praise"
+  },
+  "dependencies": {},
   "scripts": {
     "build": "rollup -c rollup.config.js",
     "precommit": "lint-staged",
