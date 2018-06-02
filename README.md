@@ -28,9 +28,9 @@ Be sure to include the compiled version of this file in a HTML file, using [Parc
 import { createPraise } from "praise";
 
 const whenISay = {
-    "ooga": () => alert("booga");
-    "am i pretty": () => alert("the prettiest!");
-}
+  ooga: () => alert("booga"),
+  "am i pretty": () => alert("the prettiest!")
+};
 
 const myPraiseListener = createPraise(whenISay); // for customizing, use createPrase(whenISay, myOptions)
 myPraiseListener.start();
